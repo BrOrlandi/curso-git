@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: 'adelle_basic_rgbold';
     src: url('adellebasic_bold-webfont.woff2') format('woff2'),
@@ -106,6 +105,8 @@ body{
 
 .inscrevase:hover,.inscrevase:focus,.inscrevase:active,.inscrevase:active:focus{
     background-color: #ea4444;
+    text-decoration: none;
+    color: white;
 }
 
 .panel{
@@ -221,4 +222,54 @@ a:active, a:hover {
 
 .icons{
     padding: 25px 0px;
+}
+
+div.background {
+    width: 100%;
+    height: 1300px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-image: url('./gitflow.png');
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -100;
+  }
+  
+  div.background:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom,rgb(238, 238, 238),rgba(238, 238, 238, 0.55), #EEEEEE);
+    opacity: 1; 
+}
+
+.row.panel{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.stars .fa{
+    font-size: 2em;
+    color: #ecc700;
+}
+
+.reviews .col{
+    margin: 0px 30px;
+}
+
+.reviews {
+    margin: 30px 0px 20px 0px;
+}
+
+.mypic{
+    margin-right: 20px;
 }
