@@ -265,8 +265,10 @@ div.background {
     color: #ecc700;
 }
 
-.reviews .col{
-    margin: 0px 30px;
+@media (min-width: 900px) {
+    .reviews .col{
+        margin: 0px 30px;
+    }
 }
 
 .reviews {
