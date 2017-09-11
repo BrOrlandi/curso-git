@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'adelle_basic_rgbold';
-    src: url('adellebasic_bold-webfont.woff2') format('woff2'),
-         url('adellebasic_bold-webfont.woff') format('woff');
+    src: url('fonts/adellebasic_bold-webfont.woff2') format('woff2'),
+         url('fonts/adellebasic_bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -15,6 +15,7 @@ html {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
 }
+
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 18px;
@@ -70,8 +71,10 @@ body{
     flex: 1;
 }
 
-#imagemcurso{
+img{
     max-height: 300px;
+    max-width: 100%;
+    height: auto;
     margin: auto;
 }
 
@@ -272,4 +275,20 @@ div.background {
 
 .mypic{
     margin-right: 20px;
+}
+
+.marginbottom{
+    margin-bottom: 40px;
+}
+
+.icons>.col{
+    margin-bottom: 10px;
+}
+
+.reviews>.col{
+    margin-bottom: 35px;
+}
+
+.reviews p{
+    margin-bottom: 5px;
 }
